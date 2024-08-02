@@ -52,6 +52,25 @@
   scale: 0.8;
 }
 
+
+h2 {
+  position: relative;
+}
+
+sp {
+  margin-left: 28px;
+}
+
+h2::before {
+  content: '';
+  position: absolute;
+  width: 23px;
+  height: 3px;
+  background: rgb(136, 136, 136);
+  top: 17px;
+}
+
+
 @media (max-width: 1024px) {
   .c-container {
     flex-direction: column;

@@ -39,8 +39,7 @@ const Residencies = () => {
     <div id="residencies" className="r-wrapper">
       <div className="paddings innerWidth r-container">
         <div className="flexColStart r-head">
-          <span className="orangeText">Best Choices</span>
-          <span className="primaryText">Popular Residencies</span>
+          <span className="primaryText">Browse homes in Maryland, MN</span>
         </div>
         <Swiper {...sliderSettings}>
           <SlideNextButton />

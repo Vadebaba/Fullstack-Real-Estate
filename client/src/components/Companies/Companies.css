@@ -1,7 +1,11 @@
-.c-container{
-    justify-content: space-around;
-    gap: 1rem;
+.title{
+    margin: 15px;
 }
-.c-container>img{
+
+.imagewrapper{
+    margin: 0px 20px;
+}
+
+.imagewrapper img{
     width: 9rem;
 }
