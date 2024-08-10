@@ -3,7 +3,6 @@ import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import SearchBar from "../SearchBar/SearchBar";
 import React, { useState } from "react";
-//import "./Header.css";
 import { BiMenuAltRight } from "react-icons/bi";
 import { getMenuStyles } from "../../utils/common";
 import useHeaderColor from "../../hooks/useHeaderColor";
@@ -14,7 +13,6 @@ import ProfileMenu from "../ProfileMenu/ProfileMenu";
 import AddPropertyModal from "../AddPropertyModal/AddPropertyModal";
 import useAuthCheck from "../../hooks/useAuthCheck.jsx";
 import { BsHousesFill } from "react-icons/bs";
-
 
 
 const Hero = () => {
@@ -89,26 +87,34 @@ const Hero = () => {
 
 
       <div className="paddings innerWidth flexCenter ">
-        {/* left side */}
         <div className="flexCen hero-left">
           <div className="hero-title">
             <div className="orange-circle" />
-            <motion.h1
-              initial={{ y: "2rem", opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{
-                duration: 2,
-                type: "ease-in",
-              }}
+            <h1
+             data-aos="fade-up"
             >
               The #1 real estate  <br />
               site you can trust*
-            </motion.h1>
+            </h1>
           </div>
-          <div className="flexCen  secondaryText flexhero-des">
-            <span>Find a variety of properties that suit you very easilty</span>
+
+          <div className="iner-container">
+            <span className="secondaryText">
+              Find a variety of properties that suit you very
+              <br />
+              and forget all difficulties in finding a residence!
+            </span>
+
+          </div>
+
+
+
+
+          {/* <div className="flexCen  secondaryText flexhero-des"> 
+            <span >Find a variety of properties that suit you very easilty</span>
             <span>Forget all difficulties in finding a residence for you</span>
-          </div>
+         
+          </div>*/}
 
           <SearchBar />
 

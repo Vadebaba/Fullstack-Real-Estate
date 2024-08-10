@@ -36,7 +36,9 @@ const Residencies = () => {
 
 
   return (
-    <div id="residencies" className="r-wrapper">
+    <div id="residencies" className="r-wrapper"
+      data-aos="fade-up"
+    >
       <div className="paddings innerWidth r-container">
         <div className="flexColStart r-head">
           <span className="primaryText">Browse homes in Maryland, MN</span>

@@ -14,15 +14,23 @@ import {
 } from "react-icons/md";
 import data from "../../utils/accordion.jsx";
 import "./Value.css";
+
+
 // Demo styles, see 'Styles' section below for some notes on use.
 
 const Value = () => {
   return (
 
-    <div>
+    <div >
 
+      <section id="value" className="v-wrapper"
+          data-aos="fade-up"
+          data-aos-delay={data.aosDelay}
+      >
+        {/*  <div className="value">
+          <span className="primaryText">Discover how we can help</span>
+        </div>*/}
 
-      <section id="value" className="v-wrapper">
         <div className="value">
           <span className="primaryText">Discover how we can help</span>
         </div>

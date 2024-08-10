@@ -2,16 +2,20 @@ import React from "react";
 import "./Contact.css";
 import { MdCall } from "react-icons/md";
 import { BsFillChatDotsFill } from "react-icons/bs";
-import {HiChatBubbleBottomCenter} from 'react-icons/hi2'
+import { HiChatBubbleBottomCenter } from 'react-icons/hi2'
+
+
 const Contact = () => {
   return (
-    <div id="contact-us" className="c-wrapper">
+    <div id="contact-us" className="c-wrapper"
+      data-aos="fade-up"
+      >
       <div className="paddings innerWidth flexCenter c-container">
         {/* left side */}
         <div className="flexColStart c-left">
-         {/* <span className="blaText"><spn>Contact</spn></span>*/}
+          {/* <span className="blaText"><spn>Contact</spn></span>*/}
 
-         <h2><sp>Contact</sp></h2>
+          <h2><sp>Contact</sp></h2>
           <span className="primaryText">We are easy to reach</span>
           <span className="secondaryText">
             We always ready to help by providing the best services for you. We
@@ -49,7 +53,7 @@ const Contact = () => {
             </div>
 
             {/* second row*/}
-            
+
           </div>
         </div>
 

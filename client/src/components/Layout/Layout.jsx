@@ -9,8 +9,8 @@ import { createUser } from "../../utils/api";
 import useFavourites from "../../hooks/useFavourites";
 import useBookings from "../../hooks/useBookings";
 
-const Layout = () => {
 
+const Layout = () => {
   useFavourites()
   useBookings()
 
